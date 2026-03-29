@@ -1,60 +1,21 @@
-import type { Metadata } from 'next';
-import { CONTACT } from '@/lib/data';
+import type { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: 'Impressum',
-  description: 'Impressum des Kfz-Sachverständigenbüros Andreas Koop in Lüdenscheid.',
-};
+export const metadata: Metadata = { title: 'Impressum' }
 
 export default function ImpressumPage() {
   return (
     <>
-      <section className="bg-primary section-padding">
-        <div className="container-custom">
-          <h1 className="font-heading text-4xl md:text-5xl font-bold text-white">Impressum</h1>
-        </div>
+      <section className="bg-navy-900 text-white py-16">
+        <div className="max-w-4xl mx-auto px-4"><h1 className="text-4xl font-bold">Impressum</h1></div>
       </section>
-
-      <section className="section-padding bg-white">
-        <div className="container-custom max-w-3xl">
-          <h2 className="font-heading text-2xl font-bold text-primary mb-4">Angaben gemäß § 5 TMG</h2>
-          <div className="text-primary/70 leading-relaxed space-y-6">
-            <div>
-              <p className="font-semibold text-primary">{CONTACT.company}</p>
-              <p>{CONTACT.name}</p>
-              <p>{CONTACT.street}</p>
-              <p>{CONTACT.zip} {CONTACT.city}</p>
-            </div>
-
-            <div>
-              <h3 className="font-heading text-lg font-bold text-primary mb-2">Kontakt</h3>
-              <p>Telefon: {CONTACT.phone}</p>
-              <p>E-Mail: {CONTACT.email}</p>
-            </div>
-
-            <div>
-              <h3 className="font-heading text-lg font-bold text-primary mb-2">Berufsbezeichnung</h3>
-              <p>Kfz-Techniker-Meister, ausgebildet an der BVSK-Akademie</p>
-            </div>
-
-            <div>
-              <h3 className="font-heading text-lg font-bold text-primary mb-2">Umsatzsteuer-ID</h3>
-              <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: wird nachgetragen</p>
-            </div>
-
-            <div>
-              <h3 className="font-heading text-lg font-bold text-primary mb-2">Streitschlichtung</h3>
-              <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr" className="text-accent hover:text-accent-light transition-colors" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a></p>
-              <p className="mt-2">Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
-            </div>
-
-            <div>
-              <h3 className="font-heading text-lg font-bold text-primary mb-2">Haftung für Inhalte</h3>
-              <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
-            </div>
-          </div>
+      <section className="bg-white section-padding">
+        <div className="max-w-3xl mx-auto px-4 text-gray-700 space-y-6">
+          <div><h2 className="text-xl font-bold text-navy-900 mb-3">Angaben gemäß § 5 TMG</h2><p>Andreas Koop<br />Kfz-Gutachter Andreas Koop<br />Lennestraße 3<br />58511 Lüdenscheid</p></div>
+          <div><h2 className="text-xl font-bold text-navy-900 mb-3">Kontakt</h2><p>Telefon: +49 2351 / 667876<br />Mobil: +49 170 / 500 40 22<br />E-Mail: info@gutachter-koop.de</p></div>
+          <div><h2 className="text-xl font-bold text-navy-900 mb-3">Umsatzsteuer</h2><p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:<br />DE295562634</p></div>
+          <div><h2 className="text-xl font-bold text-navy-900 mb-3">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2><p>Andreas Koop<br />Lennestraße 3<br />58511 Lüdenscheid</p></div>
         </div>
       </section>
     </>
-  );
+  )
 }

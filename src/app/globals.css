@@ -2,42 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 @layer base {
   html {
     scroll-behavior: smooth;
   }
   body {
-    @apply font-body text-primary bg-white;
-    font-size: 18px;
-    line-height: 1.7;
+    @apply font-sans text-gray-900 antialiased;
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading font-bold;
+    @apply font-heading;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-heading font-semibold rounded-lg transition-all duration-300 hover:bg-accent-light hover:shadow-lg;
+    @apply inline-flex items-center justify-center px-6 py-3 bg-accent text-navy-900 font-semibold rounded-lg
+           hover:bg-accent-500 transition-all duration-200 text-sm tracking-wide;
   }
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-8 py-4 border-2 border-accent text-accent font-heading font-semibold rounded-lg transition-all duration-300 hover:bg-accent hover:text-white;
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-white text-white font-semibold rounded-lg
+           hover:bg-white hover:text-navy-900 transition-all duration-200 text-sm tracking-wide;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-accent text-accent font-semibold rounded-lg
+           hover:bg-accent hover:text-navy-900 transition-all duration-200 text-sm tracking-wide;
   }
   .section-padding {
-    @apply py-16 md:py-24 px-4 md:px-8;
+    @apply px-4 sm:px-6 lg:px-8 py-16 md:py-24;
   }
-  .container-custom {
-    @apply max-w-7xl mx-auto;
-  }
-  .gold-gradient {
-    background: linear-gradient(135deg, #B8860B 0%, #D4A017 50%, #B8860B 100%);
-  }
-  .text-gold-gradient {
-    background: linear-gradient(135deg, #B8860B 0%, #D4A017 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  .container-narrow {
+    @apply max-w-6xl mx-auto;
   }
 }

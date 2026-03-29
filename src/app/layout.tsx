@@ -1,42 +1,35 @@
-import type { Metadata } from 'next';
-import './globals.css';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import type { Metadata } from 'next'
+import './globals.css'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://gutachter-koop.de'),
   title: {
-    default: 'Kfz Gutachter Lüdenscheid | Sachverständigenbüro Andreas Koop',
-    template: '%s | Gutachter Koop',
+    default: 'Kfz Gutachter Andreas Koop | Größtes Kfz Sachverständigenbüro im Märkischen Kreis',
+    template: '%s | Kfz Gutachter Koop',
   },
-  description: 'Kfz-Sachverständiger in Lüdenscheid ✓ 20.000+ Gutachten ✓ Eigene Prüfhalle ✓ 0€ für Geschädigte bei Haftpflichtfällen ☎ 0170 500 4022 – Ihr Gutachter im Märkischen Kreis',
-  keywords: ['Kfz Gutachter', 'Sachverständiger', 'Lüdenscheid', 'Unfallgutachten', 'Wertminderung', 'Fahrzeugbewertung', 'Sachverständigenverfahren', 'Märkischer Kreis'],
+  description: 'Unsere Kfz Experten erstellen detaillierte Kfz Gutachten, die bei der Schadenregulierung für eine schnelle Abwicklung sorgen. 20.000+ Gutachten erstellt.',
+  keywords: ['Kfz Gutachter', 'Lüdenscheid', 'Sachverständiger', 'Kfz Gutachten', 'Andreas Koop', 'Märkischer Kreis', 'Unfallgutachten'],
   authors: [{ name: 'Andreas Koop' }],
   openGraph: {
     type: 'website',
     locale: 'de_DE',
     url: 'https://gutachter-koop.de',
-    siteName: 'Gutachter Koop',
-    title: 'Kfz Gutachter Lüdenscheid | Sachverständigenbüro Andreas Koop',
-    description: 'Kfz-Sachverständiger in Lüdenscheid ✓ 20.000+ Gutachten ✓ Eigene Prüfhalle ✓ 0€ für Geschädigte',
+    siteName: 'Kfz Gutachter Koop',
+    title: 'Kfz Gutachter Andreas Koop | Größtes Kfz Sachverständigenbüro im Märkischen Kreis',
+    description: 'Unsere Kfz Experten erstellen detaillierte Kfz Gutachten, die bei der Schadenregulierung für eine schnelle Abwicklung sorgen.',
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="de">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="min-h-screen flex flex-col">
         <Header />
@@ -44,5 +37,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  );
+  )
 }
