@@ -1,0 +1,25 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.staging
+    ports:
+      - "8600:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    env_file:
+      - path: .env.staging
+        required: false
+    environment:
+      NODE_ENV: development
+      NEXT_TELEMETRY_DISABLED: "1"
+      PORT: "3000"
+    restart: "no"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--spider", "http://localhost:3000"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
