@@ -49,12 +49,13 @@ BASE_URL=http://localhost:8600 pnpm exec playwright test
 
 ## Environment variables
 
-Optional — the site renders fully without them; only the contact form needs Supabase:
+Optional — the site renders fully without them; features degrade gracefully:
 
 | Variable | Purpose |
 |---|---|
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL (contact form) |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anon key (contact form) |
+| `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` | Google Maps Embed API key (standort map) |
 
 Copy `.env.staging.example` → `.env.staging` to enable them locally.
 
