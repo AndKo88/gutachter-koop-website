@@ -1,0 +1,77 @@
+RECHERCHE: Bestehende Wertminderungsmodelle – Übersicht, Schwächen, Gerichtsanerkennung
+========================================================================================
+
+Quelle: verkehrslexikon.de/Texte/WMModelle.php + BGH-Rechtsprechung
+
+## 1. RUHKOPF/SAHM (am häufigsten angewandt)
+- Tabelle: Verhältnis Reparaturkosten/WBW × Zulassungsjahr → Prozentsatz auf (WBW + Netto-Repkosten)
+- SCHWÄCHEN: 
+  - Nur 3 Zulassungsjahre, nur 3 Schadensklassen → sehr grob
+  - Keine Berücksichtigung von Marktlage, Fahrzeugtyp, Liebhaberwert
+  - "In den meisten vielen Fällen ergeben sich aber falsche Werte"
+  - Wertminderungsrelevanter Anteil muss erst herausgerechnet werden → komplex
+  - AG Pfaffenhofen + Palandt: "mittlerweile überholt"
+
+## 2. HAMBURGER MODELL
+- Betriebsleistung des Kfz → Prozentsatz der Reparaturkosten
+- bis 20.000 km: 30%, bis 50.000: 20%, bis 75.000: 15%, bis 100.000: 10%, über 100.000: 0%
+- SCHWÄCHEN: Nur Kilometerstand, kein Alter, keine Marktlage, kein Schadensumfang
+
+## 3. BREMER FORMEL
+- Fahrzeugalter → Prozentsatz der erheblichen Reparaturkosten
+- bis 6 Mon: 30%, bis 12: 25%, bis 24: 20%, bis 36: 15%, bis 60: 10%
+- SCHWÄCHEN: Nur Alter, keine Laufleistung, keine Marktlage
+
+## 4. ALLGEMEINE FAUSTFORMEL
+- Betriebsjahr → Prozentsatz der Netto-Reparaturkosten (25/20/15/10%)
+- SCHWÄCHEN: Extrem vereinfacht, keine Differenzierung
+
+## 5. SCHWEIZER FORMEL
+- Pauschal 20% der Netto-Reparaturkosten
+- SCHWÄCHEN: Keine Differenzierung überhaupt
+
+## 6. HALBGEWACHS (DEKRA-MODELL)
+- Ähnlich Ruhkopf/Sahm, aber mit Aufwandsverhältnis Arbeitskosten:Materialkosten
+- SCHWÄCHEN: "Kaum angewandt", zu kompliziert, zu viele Eingaben nötig
+
+## 7. MFM (Marktrelevanz- und Faktorenmethode)
+- Parameter: VW (Veräußerungswert), NP (Neupreis), RK (Reparaturkosten), SU (Schadenumfang 0,2-1,0), AK (Alterskorrektur 0-0,25), FM (Marktgängigkeit 0,6-1,4), FV (Vorschaden)
+- Formel: MFM = (VW/NP) × RK × SU × AK × FM × FV
+- STÄRKEN: Berücksichtigt mehr Faktoren als andere Modelle
+- SCHWÄCHEN: 
+  - AK-Faktor nur bis 120 Monate (10 Jahre), danach = 0 → kein Minderwert
+  - FM-Faktor subjektiv (Marktgängigkeit 0,6-1,4)
+  - Keine empirische Marktdatenbasis
+  - Kein Standard, nicht flächendeckend anerkannt
+
+## 8. HTS (Hamburger Taxe/Sachverständigen-Methode)
+- Wertverlustkurve + Schadenintensität + Kilometerkorrektur + Marktlagefaktor
+- Basiert auf Marktbefragung von Händlern
+- STÄRKEN: Empirische Datenbasis, Korridor statt Punktwert
+- SCHWÄCHEN:
+  - Datenbasis veraltet / nicht transparent
+  - Nicht flächendeckend bekannt
+  - Keine kontinuierliche Aktualisierung
+  - Begrenzte Stichprobengröße
+
+## BGH-RECHTSPRECHUNG (aktuell)
+
+BGH, 16.07.2024 – VI ZR 239/23:
+- "Grundlage für die Schätzung des merkantilen Minderwerts ist ein hypothetischer Verkauf"
+- Berechnung auf NETTO-Basis (nicht brutto!)
+- Gericht hat Schätzungsermessen nach § 287 ZPO
+- KEIN bestimmtes Modell ist vorgeschrieben
+- "Die Höhe des merkantilen Minderwerts lässt sich regelmäßig nicht ohne Hinzuziehung eines Sachverständigen nach einem festen Prozentsatz errechnen"
+
+AG Pfaffenhofen, 11.07.2014 – 1 C 430/13:
+- "Die ursprünglich für die Schätzung herangezogenen Schätzmethoden sind mittlerweile überholt"
+- "Insbesondere ist eine Schätzung nach der Methode Halbgewachs sowie nach der Methode Ruhkopf/Sahm nicht mehr zeitgemäß"
+
+## KERNPROBLEM ALLER MODELLE
+1. Keine oder unzureichende empirische Datenbasis
+2. Keine kontinuierliche Marktdatenerhebung
+3. Subjektive Faktoren ohne Validierung
+4. Veraltet (die meisten aus den 1970er-1990er Jahren)
+5. Kein Modell berücksichtigt ALLE relevanten Faktoren gleichzeitig
+6. Kein Modell hat eine branchenweite Akzeptanz als "Standard"
+7. BGH schreibt KEIN bestimmtes Modell vor → Marktlücke!
