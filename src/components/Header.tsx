@@ -8,6 +8,7 @@ const navItems = [
   { label: 'Home', href: '/' },
   { label: 'Vorteile', href: '/vorteile' },
   { label: 'Wertminderung', href: '/wertminderung' },
+  { label: 'Achsvermessung', href: '/achsvermessung' },
   { label: 'Blog', href: '/blog' },
   { label: 'Team', href: '/team' },
   { label: 'FAQ', href: '/faq' },

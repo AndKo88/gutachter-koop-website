@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/team`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/faq`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/standort`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/achsvermessung`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/iserlohn`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/impressum`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },

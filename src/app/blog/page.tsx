@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = { title: 'Blog | Wissenswertes von Kfz Gutachter Koop' }
 
 const articles = [
+  { slug: 'achsvermessung-nach-unfall-warum-die-eingangsvermessung-entscheidend-ist', title: 'Achsvermessung nach Unfall: Warum die Eingangsvermessung entscheidend ist', year: '2025' },
   { slug: 'anhanger-vermietung-ludenscheid-partnerschaft-zwischen-gutachter-koop-und-aral-brugge', title: 'Anhänger Vermietung Lüdenscheid: Partnerschaft zwischen Gutachter Koop und Aral Brügge', year: '2025' },
   { slug: 'ihr-unfallgegner-hat-eine-versicherung-sie-haben-jetzt-den-r5', title: 'Ihr Unfallgegner hat eine Versicherung. Sie haben jetzt den R5.', year: '2025' },
   { slug: 'ersthelfer-von-morgen-gutachter-koop-unterstutzt-kindergarten-in-ludenscheid', title: 'Ersthelfer von morgen: Gutachter Koop unterstützt Kindergärten in Lüdenscheid', year: '2025' },

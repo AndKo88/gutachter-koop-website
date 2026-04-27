@@ -2,6 +2,44 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
 const articles: Record<string, { title: string; author: string; date: string; content: string }> = {
+  'achsvermessung-nach-unfall-warum-die-eingangsvermessung-entscheidend-ist': {
+    title: 'Achsvermessung nach Unfall: Warum die Eingangsvermessung entscheidend ist',
+    author: 'Andreas Koop',
+    date: '27. April 2025',
+    content: `Nach einem Verkehrsunfall denken die meisten Betroffenen zuerst an sichtbare Schäden: Dellen, Kratzer, gebrochene Scheinwerfer. Doch einige der folgenschwersten Schäden bleiben dem bloßen Auge verborgen \u2013 und genau hier kommt die Achsvermessung ins Spiel.
+
+Warum eine Achsvermessung nach dem Unfall unverzichtbar ist
+
+Bei einem Aufprall im Bereich der Räder, des Radträgers oder der Lenkung wirken enorme Kräfte auf die Fahrwerksgeometrie. Schon ein vermeintlich harmloser Bordsteinrempler oder ein Felgenkratzer kann ausreichen, um die Spur, den Sturz oder den Nachlauf zu verstellen. Die Folgen sind gravierend: Das Fahrzeug zieht zur Seite, der Bremsweg verlängert sich und die Reifen verschleißen einseitig \u2013 ein erhebliches Sicherheitsrisiko.
+
+Als Kfz-Sachverständiger mit über 20.000 erstellten Gutachten erlebe ich regelmäßig, dass Versicherungen versuchen, Fahrwerksschäden als \u201Evorbestehend\u201C abzutun. Eine professionelle Achsvermessung direkt nach dem Unfall liefert den unwiderlegbaren Beweis, dass die Abweichungen unfallbedingt sind.
+
+Eingangsvermessung: Messen, nicht einstellen
+
+Bei Gutachter Koop führen wir ausschließlich eine sogenannte Eingangsvermessung durch. Das bedeutet: Wir messen den exakten Ist-Zustand des Fahrwerks nach dem Unfall, ohne etwas einzustellen oder zu korrigieren. Warum? Weil eine sofortige Einstellung den Beweis für den Schaden vernichten würde.
+
+Die Eingangsvermessung dokumentiert die Abweichungen von den Herstellervorgaben und wird Bestandteil des Unfallgutachtens. Erst wenn das Gutachten erstellt und die Beweissicherung abgeschlossen ist, erfolgt die eigentliche Einstellung in der Reparaturwerkstatt.
+
+Das Koch HD-10 EasyTouch: Motorsport-Technologie für Ihr Gutachten
+
+Wir setzen auf das Koch HD-10 EasyTouch Achsmesssystem \u2013 ein System, das ich aus meiner eigenen Motorsporterfahrung kenne und schätze. Die Koch-Achsmessanlagen gehören zu den präzisesten Messsystemen auf dem Markt und werden auch im professionellen Rennsport eingesetzt.
+
+Das Besondere: Die Messung erfolgt im Fahrzustand, also ohne das Fahrzeug anzuheben. Das ist entscheidend, denn beim Anheben verändert sich die Fahrwerksgeometrie durch die Entlastung der Federn. Unsere Messung im belasteten Zustand liefert daher die realistischsten und gerichtsfest verwertbaren Ergebnisse.
+
+Die grüne Lasertechnologie des Koch-Systems erfasst Spur, Sturz, Spurdifferenzwinkel und Achsschrägstand mit höchster Genauigkeit. Die Messprotokolle sind detailliert, nachvollziehbar und halten vor jedem Gericht stand.
+
+Wer trägt die Kosten?
+
+Wenn Sie unverschuldet in einen Verkehrsunfall verwickelt wurden, übernimmt die gegnerische Haftpflichtversicherung sämtliche Kosten der Schadensfeststellung \u2013 einschließlich der Achsvermessung. Für Sie als Geschädigten entstehen keinerlei Kosten.
+
+Die Achsvermessung ist ein anerkannter und notwendiger Bestandteil der Unfallschadensbegutachtung. Versicherungen, die versuchen, diese Kosten abzulehnen, handeln rechtswidrig. Wir setzen Ihre Ansprüche konsequent durch.
+
+Fazit: Gehen Sie kein Risiko ein
+
+Ein Unfall ist stressig genug. Lassen Sie nicht zu, dass verborgene Fahrwerksschäden Ihre Sicherheit gefährden oder Ihre Ansprüche geschmälert werden. Eine professionelle Achsvermessung mit dem Koch HD-10 System in unserer Prüfhalle in Lüdenscheid gibt Ihnen die Gewissheit, die Sie brauchen \u2013 und die Beweise, die Ihr Gutachten wasserdicht machen.
+
+Rufen Sie uns an unter 0170 - 500 40 22 oder besuchen Sie unsere Achsvermessungs-Seite für weitere Informationen.`,
+  },
   'ihr-unfallgegner-hat-eine-versicherung-sie-haben-jetzt-den-r5': {
     title: 'Ihr Unfallgegner hat eine Versicherung. Sie haben jetzt den R5.',
     author: 'Ivan Dalmann',
@@ -35,6 +73,7 @@ Steigen Sie ein. Fahren Sie los. Wir kümmern uns um den Rest. Auch um die Rechn
 }
 
 const allSlugs = [
+  'achsvermessung-nach-unfall-warum-die-eingangsvermessung-entscheidend-ist',
   'anhanger-vermietung-ludenscheid-partnerschaft-zwischen-gutachter-koop-und-aral-brugge',
   'ihr-unfallgegner-hat-eine-versicherung-sie-haben-jetzt-den-r5',
   'ersthelfer-von-morgen-gutachter-koop-unterstutzt-kindergarten-in-ludenscheid',
@@ -61,6 +100,7 @@ const allSlugs = [
 ]
 
 const slugTitles: Record<string, string> = {
+  'achsvermessung-nach-unfall-warum-die-eingangsvermessung-entscheidend-ist': 'Achsvermessung nach Unfall: Warum die Eingangsvermessung entscheidend ist',
   'anhanger-vermietung-ludenscheid-partnerschaft-zwischen-gutachter-koop-und-aral-brugge': 'Anhänger Vermietung Lüdenscheid: Partnerschaft zwischen Gutachter Koop und Aral Brügge',
   'ersthelfer-von-morgen-gutachter-koop-unterstutzt-kindergarten-in-ludenscheid': 'Ersthelfer von morgen: Gutachter Koop unterstützt Kindergärten in Lüdenscheid',
   'gut-zu-wissen-verkehrsrechtsschutz': 'Gut zu wissen: Verkehrsrechtsschutz',
