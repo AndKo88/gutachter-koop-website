@@ -6,7 +6,7 @@ const compareData = [
   { feature: 'Zerlegung von Bauteilen', koop: 'Standard bei uns', frei: 'Möglich', versicherung: 'Selten' },
   { feature: 'Technische Schadenanalyse', koop: 'Kraftverlauf, Verformung und Materialbeanspruchung', frei: 'Variiert', versicherung: 'Selten' },
   { feature: 'Auswertung von Achs- und Karosseriemessdaten', koop: 'Durch den Sachverständigen selbst', frei: 'Nicht immer', versicherung: 'Nein' },
-  { feature: 'Anwaltservice', koop: 'Vollumfänglicher Service', frei: 'Selten', versicherung: 'Nein' },
+  { feature: 'Gutachten an Ihre Fachanwaltskanzlei', koop: 'Auf Wunsch direkt, Sie wählen die Kanzlei', frei: 'Selten', versicherung: 'Nein' },
   { feature: 'Prüfhalle mit guter Belichtung', koop: 'Spezialisierte Prüfhalle mit optimaler Beleuchtung', frei: 'Variiert', versicherung: 'Nein' },
   { feature: 'Kundenbetreuung', koop: 'Persönlich, individuell und engagiert', frei: 'Variiert', versicherung: 'Standardisiert' },
 ]
