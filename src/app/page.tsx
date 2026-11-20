@@ -12,9 +12,8 @@ const reviews = [
 
 const compareData = [
   { feature: 'Zerlegung von Bauteilen', koop: 'Standard bei uns', frei: 'Möglich', versicherung: 'Selten' },
-  { feature: 'Achsvermessung', koop: 'Vor Ort verfügbar', frei: 'Nicht immer vor Ort', versicherung: 'Nicht vor Ort' },
-  { feature: 'Karosserievermessung', koop: 'Vor Ort verfügbar', frei: 'Nicht immer vor Ort', versicherung: 'Nicht vor Ort' },
-  { feature: 'Mietwagenservice', koop: 'Immer verfügbar und kundenorientiert', frei: 'Nach Verfügbarkeit', versicherung: 'Nach Verfügbarkeit' },
+  { feature: 'Technische Schadenanalyse', koop: 'Kraftverlauf, Verformung und Materialbeanspruchung', frei: 'Variiert', versicherung: 'Selten' },
+  { feature: 'Auswertung von Achs- und Karosseriemessdaten', koop: 'Durch den Sachverständigen selbst', frei: 'Nicht immer', versicherung: 'Nein' },
   { feature: 'Anwaltservice', koop: 'Vollumfänglicher Service', frei: 'Selten', versicherung: 'Nein' },
   { feature: 'Prüfhalle mit guter Belichtung', koop: 'Spezialisierte Prüfhalle mit optimaler Beleuchtung', frei: 'Variiert', versicherung: 'Nein' },
   { feature: 'Kundenbetreuung', koop: 'Persönlich, individuell und engagiert', frei: 'Variiert', versicherung: 'Standardisiert' },
@@ -23,8 +22,21 @@ const compareData = [
 const steps = [
   { nr: '01', title: 'Der Erstkontakt', time: 'ca. 30 Min', text: 'Beim gemeinsamen Erstgespräch klären wir alle wichtigen Details rund um den Schaden an Ihrem Fahrzeug. Erzählen Sie unserem Expertenteam von den Umständen, zeigen Sie uns die betroffenen Bereiche und informieren Sie uns über Ihre Erwartungen und Wünsche.' },
   { nr: '02', title: 'Die Schadenaufnahme', time: 'ca. 20 Min', text: 'Ob bei Ihnen Zuhause, auf der Arbeit oder in Ihrer ausgesuchten Werkstatt. Sobald alle Details besprochen sind, nimmt unser Team den Schaden präzise auf. Dabei nutzen wir modernste Technologie und bewährte Methoden, um sicherzustellen, dass nichts übersehen wird.' },
-  { nr: '03', title: 'Die Auswertung', time: 'ca. 10 Min', text: 'Nach der Schadenaufnahme analysieren unsere Experten die Daten und erstellen das Gutachten. Dabei achten wir darauf, dass alles verständlich und nachvollziehbar ist. Sie erhalten einen Überblick über den Zustand Ihres Fahrzeugs und die zu erwartenden Kosten.' },
+  { nr: '03', title: 'Die Auswertung', time: '', text: 'Ihr Sachverständiger wertet Messwerte und Fotos aus, prüft, wie der Anstoß auf das Fahrzeug gewirkt hat, und berechnet Reparaturweg und Kosten. Für Sie läuft das im Hintergrund, Sie müssen nichts tun.' },
   { nr: '04', title: 'Das fertige Gutachten', time: '', text: 'Wir erstellen nicht nur Ihr detailliertes Gutachten, sondern versenden es auch direkt an einen Rechtsanwalt oder die Versicherung. Unser Ziel ist es, den Prozess für Sie so einfach wie möglich zu gestalten und sicherzustellen, dass Sie schnell Ihr Geld erhalten.' },
+]
+
+const methode = [
+  { nr: '1', title: 'Vermessen', text: 'Wir erfassen den Schaden genau: Fotos, Spaltmaße, Lackschichtdicken und, wo nötig, Messwerte aus der Achs- oder Karosserievermessung.' },
+  { nr: '2', title: 'Berechnen', text: 'Wir prüfen, wie die Kräfte beim Unfall durch das Fahrzeug gelaufen sind, was sich verformt hat und welche Teile ersetzt werden müssen. Daraus berechnen wir Reparaturkosten und Wertminderung.' },
+  { nr: '3', title: 'Dokumentieren', text: 'Alles steht nachvollziehbar im Gutachten: Messwerte, Fotos und Begründung. So kann es jede Versicherung und jedes Gericht prüfen.' },
+]
+
+const qualifikation = [
+  'Kfz-Techniker-Meister',
+  'Kfz-Sachverständiger, ausgebildet an der BVSK Akademie',
+  'Grundlagen aus dem Maschinenbaustudium',
+  'Mitglied im MAS',
 ]
 
 const stats = [
@@ -69,7 +81,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
           {[
             { title: 'Telefonisch anfragen', text: 'Ein Autounfall kann stressig sein, und ohne das richtige Kfz Gutachten können Sie wertvolle Ansprüche verlieren.' },
-            { title: 'Detaillierte Schadenaufnahme', text: 'Wir nutzen moderne Technik und Meisterwissen, um Ihnen ein Kfz Gutachten zu liefern, das den Unterschied macht.' },
+            { title: 'Detaillierte Schadenaufnahme', text: 'Wir messen, rechnen nach und begründen jedes Ergebnis technisch. So entsteht ein Kfz Gutachten, das den Unterschied macht.' },
             { title: 'Schadenregulierung', text: 'Unsere ausführlichen Gutachten minimieren Streitigkeiten und beschleunigen die Regulierung.' },
           ].map((item, i) => (
             <div key={i} className="text-center p-6 rounded-xl hover:shadow-lg transition-shadow border border-gray-100">
@@ -91,7 +103,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">Das Kfz Sachverständigenbüro in Lüdenscheid - Gutachter Koop</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>Seit <strong>über 10 Jahren</strong> unterstützen mein Team und ich Autofahrer nach Kfz Unfällen in Lüdenscheid und Umgebung. Egal, ob kleinste Bagatellschäden oder schwere Totalschäden - <strong>wir kümmern uns individuell um jeden Fall!</strong></p>
-              <p>Neben flexiblen Besichtigungen bei Ihnen bieten wir eine <strong>hochmoderne, gut belichtete Prüfhalle und Ersatzfahrzeuge</strong> an, um Ihren Alltag während der Begutachtung ungestört zu halten.</p>
+              <p>Neben flexiblen Besichtigungen bei Ihnen steht uns eine <strong>hochmoderne, gut belichtete Prüfhalle</strong> zur Verfügung, in der wir auch versteckte Schäden sichtbar machen.</p>
               <p>Wir konzentrieren uns darauf, durch <strong>detaillierte Untersuchungen und klare, verständliche Aufnahmen</strong>, Ihnen ein umfassendes Kfz Gutachten zu liefern.</p>
               <p>Ein Anruf bei uns ist Ihr nächster Schritt zur <strong>schnellen Schadensregulierung.</strong></p>
             </div>
@@ -132,7 +144,7 @@ export default function Home() {
               <li className="flex gap-3"><span className="text-accent mt-1">&#10003;</span> es detaillierte Übersicht über alle anfallenden Kosten gibt, inklusive potenzieller Folgekosten.</li>
               <li className="flex gap-3"><span className="text-accent mt-1">&#10003;</span> es von einem unabhängigen Experten erstellt wird, der im Gegensatz zur Werkstatt keine Reparaturinteressen verfolgt.</li>
             </ul>
-            <p>Viele Kostenvoranschläge mögen auf den ersten Blick detailliert erscheinen, sind jedoch oft standardisiert und lassen wichtige Fakten außen vor. Bei uns wird jedes Fahrzeug detailliert untersucht: Wir zerlegen Bauteile in unserer eigenen Prüfhalle, analysieren Schäden gründlich, führen Achs- und Karosserievermessungen durch und sorgen dank digitaler Prozesse für schnelle Ergebnisse.</p>
+            <p>Viele Kostenvoranschläge mögen auf den ersten Blick detailliert erscheinen, sind jedoch oft standardisiert und lassen wichtige Fakten außen vor. Bei uns wird jedes Fahrzeug detailliert untersucht: Wir zerlegen Bauteile in der Prüfhalle, werten Achs- und Karosseriemessdaten aus, prüfen den Kraftverlauf des Anstoßes und sorgen dank digitaler Prozesse für schnelle Ergebnisse.</p>
             <p className="italic text-accent/80">Viele Kunden kommen zu uns wegen gering ausfallenden Kostenvoranschlägen von anderen Anbietern!</p>
           </div>
         </div>
@@ -169,6 +181,39 @@ export default function Home() {
             ))}
           </div>
           <p className="text-gray-700 text-center mt-10 leading-relaxed">Mit Gutachter Koop in Lüdenscheid sind Sie nicht nur eine Aktennummer. Wir setzen uns für Ihre Interessen ein und <strong>stehen Ihnen von Anfang bis Ende zur Seite.</strong></p>
+        </div>
+      </section>
+
+      {/* So arbeiten wir */}
+      <section className="bg-white section-padding">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="inline-block text-accent font-semibold text-sm tracking-widest uppercase mb-3">So arbeiten wir</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Vermessen. Berechnen. Dokumentieren.</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto">Jedes Haftpflichtgutachten durchläuft bei uns drei Schritte. Wir schätzen nicht, wir rechnen nach.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {methode.map((m) => (
+              <div key={m.nr} className="p-8 rounded-xl border border-gray-100 bg-gray-50 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+                <div className="w-12 h-12 bg-navy-900 text-accent rounded-xl flex items-center justify-center font-bold text-lg mb-5">{m.nr}</div>
+                <h3 className="font-heading font-bold text-navy-900 text-xl mb-3">{m.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{m.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Ihr Sachverständiger */}
+      <section className="bg-gray-50 section-padding">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Ihr Sachverständiger: Andreas Koop</h2>
+          <p className="text-gray-600 mb-8">Jedes Gutachten wird von mir persönlich geprüft und verantwortet.</p>
+          <ul className="flex flex-wrap justify-center gap-3">
+            {qualifikation.map((q) => (
+              <li key={q} className="px-4 py-2 rounded-full bg-white border border-gray-200 text-sm text-navy-900">{q}</li>
+            ))}
+          </ul>
         </div>
       </section>
 

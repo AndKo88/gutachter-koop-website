@@ -28,8 +28,8 @@ export default function Footer() {
               <li><a href="mailto:info@gutachter-koop.de" className="hover:text-white transition-colors">info@gutachter-koop.de</a></li>
               <li><a href="tel:01705004022" className="hover:text-white transition-colors">0170 / 500 40 22</a></li>
               <li><a href="tel:+492351667876" className="hover:text-white transition-colors">02351 / 667876</a></li>
-              <li>Lennestraße 3</li>
-              <li>58511 Lüdenscheid</li>
+              <li>Rahmedestraße 65</li>
+              <li>58507 Lüdenscheid</li>
             </ul>
           </div>
           <div>

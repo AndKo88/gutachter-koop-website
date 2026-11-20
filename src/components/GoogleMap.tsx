@@ -1,4 +1,4 @@
-const ADDRESS = 'Lennestraße 3, 58511 Lüdenscheid'
+const ADDRESS = 'Rahmedestraße 65, 58507 Lüdenscheid'
 const MAPS_SEARCH_URL = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ADDRESS)}`
 
 export default function GoogleMap() {

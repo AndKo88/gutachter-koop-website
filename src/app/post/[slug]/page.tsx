@@ -16,7 +16,7 @@ Als Kfz-Sachverständiger mit über 20.000 erstellten Gutachten erlebe ich regel
 
 Eingangsvermessung: Messen, nicht einstellen
 
-Bei Gutachter Koop führen wir ausschließlich eine sogenannte Eingangsvermessung durch. Das bedeutet: Wir messen den exakten Ist-Zustand des Fahrwerks nach dem Unfall, ohne etwas einzustellen oder zu korrigieren. Warum? Weil eine sofortige Einstellung den Beweis für den Schaden vernichten würde.
+Bei Gutachter Koop wird ausschließlich eine sogenannte Eingangsvermessung durchgeführt. Die Messung übernimmt unser Partner, die LCS GmbH, die Auswertung der Messwerte mache ich als Sachverständiger selbst. Das bedeutet: Wir messen den exakten Ist-Zustand des Fahrwerks nach dem Unfall, ohne etwas einzustellen oder zu korrigieren. Warum? Weil eine sofortige Einstellung den Beweis für den Schaden vernichten würde.
 
 Die Eingangsvermessung dokumentiert die Abweichungen von den Herstellervorgaben und wird Bestandteil des Unfallgutachtens. Erst wenn das Gutachten erstellt und die Beweissicherung abgeschlossen ist, erfolgt die eigentliche Einstellung in der Reparaturwerkstatt.
 
@@ -40,42 +40,10 @@ Ein Unfall ist stressig genug. Lassen Sie nicht zu, dass verborgene Fahrwerkssch
 
 Rufen Sie uns an unter 0170 - 500 40 22 oder besuchen Sie unsere Achsvermessungs-Seite für weitere Informationen.`,
   },
-  'ihr-unfallgegner-hat-eine-versicherung-sie-haben-jetzt-den-r5': {
-    title: 'Ihr Unfallgegner hat eine Versicherung. Sie haben jetzt den R5.',
-    author: 'Ivan Dalmann',
-    date: '13. Juli 2025',
-    content: `Ein Knall. Stille. Dann der Ärger. Ein unverschuldeter Unfall ist mehr als nur Blechschaden – er ist ein Eingriff in Ihren Alltag. Ihr Auto steht still, vielleicht sogar nicht mehr verkehrssicher. Es muss zur genauen Untersuchung, zur Demontage, zur präzisen Fahrzeugvermessung. In dieser Zeit sind Sie lahmgelegt. Und genau das ist der Moment, in dem die Gegenseite auf Zeit spielt.
-
-Wir bei Gutachter Koop spielen nicht. Wir handeln. Und unser neuestes Werkzeug dafür ist keine Software und kein Messgerät. Es ist ein Statement auf vier Rädern: der brandneue Renault R5 E-Tech.
-
-Mehr als ein Auto. Eine Garantie.
-
-Vergessen Sie alles, was Sie über "Ersatzwagen" zu wissen glauben. Unser R5 ist kein Trostpreis. Er ist ein Upgrade. Wir haben uns bewusst für die Top-Version entschieden: der größte Akku mit 410 km Reichweite, der stärkste 150-PS-Motor und eine Ausstattung, die begeistert. Warum? Weil Sie nach einem Unfall nicht weniger, sondern mehr verdient haben.
-
-Dieses Auto, in leuchtendem Gelb und veredelt von den Profis bei Folienkonzepte Weber in Lüdenscheid, ist Ihr direkter Vorteil. Und das Beste daran?
-
-Wenn Sie am Unfall keine Schuld tragen, ist dieser Wagen für Sie komplett kostenlos.
-
-Richtig gelesen. Null Kosten. Null Haken. Wir kümmern uns um alles. Die Bereitstellung läuft über unseren bewährten Partner, die LCS GmbH. Die Abrechnung der Mietwagenkosten übernehmen wir direkt mit der gegnerischen Versicherung. Sie unterschreiben, steigen ein und fahren los. Das ist unser Service.
-
-Die Technik, die Ihnen den Rücken freihält
-
-Während Sie im flüsterleisen R5 E-Tech unterwegs sind, kämpfen wir für Ihr Recht. Wir erstellen mit akribischer Präzision Ihr Schadengutachten und sichern jeden einzelnen Euro Ihres Anspruchs.
-
-Ihre nächste Fahrt beginnt hier
-
-Sehen Sie diesen gelben Flitzer auf der Straße, ist das kein Zufall. Es ist ein Zeichen. Ein Zeichen dafür, dass einer unserer Kunden gerade erlebt, wie ein Kfz-Gutachter den Unterschied macht. Den Unterschied zwischen "abgefunden werden" und "sein volles Recht bekommen".
-
-Ein Unfall ist eine Ausnahmesituation. Ihre Reaktion darauf sollte es auch sein. Greifen Sie zum Telefon. Wählen Sie Gutachter Koop. Und während wir Ihren Fall übernehmen, wartet Ihr kostenloser Ersatzwagen schon auf Sie.
-
-Steigen Sie ein. Fahren Sie los. Wir kümmern uns um den Rest. Auch um die Rechnung.`,
-  },
 }
 
 const allSlugs = [
   'achsvermessung-nach-unfall-warum-die-eingangsvermessung-entscheidend-ist',
-  'anhanger-vermietung-ludenscheid-partnerschaft-zwischen-gutachter-koop-und-aral-brugge',
-  'ihr-unfallgegner-hat-eine-versicherung-sie-haben-jetzt-den-r5',
   'ersthelfer-von-morgen-gutachter-koop-unterstutzt-kindergarten-in-ludenscheid',
   'gut-zu-wissen-verkehrsrechtsschutz',
   'aufgepasst-das-sind-die-tricks-der-versicherungen',
@@ -83,7 +51,6 @@ const allSlugs = [
   '7-tipps-tricks-wie-erkenne-ich-einen-unfallwagen-beim-gebrauchtwagenkauf',
   '7-tipps-unfall-im-ausland-was-ist-zu-tun',
   'wann-ist-ein-schaden-ein-bagatellschaden',
-  'steinschlag-reparieren-oder-scheibe-austauschen',
   'old-but-gold-ein-oldtimer-gutachten',
   'sturm-orkan-was-tun',
   'winterreifen-richtig-lagern',
@@ -101,7 +68,6 @@ const allSlugs = [
 
 const slugTitles: Record<string, string> = {
   'achsvermessung-nach-unfall-warum-die-eingangsvermessung-entscheidend-ist': 'Achsvermessung nach Unfall: Warum die Eingangsvermessung entscheidend ist',
-  'anhanger-vermietung-ludenscheid-partnerschaft-zwischen-gutachter-koop-und-aral-brugge': 'Anhänger Vermietung Lüdenscheid: Partnerschaft zwischen Gutachter Koop und Aral Brügge',
   'ersthelfer-von-morgen-gutachter-koop-unterstutzt-kindergarten-in-ludenscheid': 'Ersthelfer von morgen: Gutachter Koop unterstützt Kindergärten in Lüdenscheid',
   'gut-zu-wissen-verkehrsrechtsschutz': 'Gut zu wissen: Verkehrsrechtsschutz',
   'aufgepasst-das-sind-die-tricks-der-versicherungen': 'Aufgepasst: Das sind die Tricks der Versicherungen!',
@@ -109,7 +75,6 @@ const slugTitles: Record<string, string> = {
   '7-tipps-tricks-wie-erkenne-ich-einen-unfallwagen-beim-gebrauchtwagenkauf': '7 Tipps & Tricks: Wie erkenne ich einen Unfallwagen beim Gebrauchtwagenkauf',
   '7-tipps-unfall-im-ausland-was-ist-zu-tun': '7 Tipps: Unfall im Ausland – was ist zu tun?',
   'wann-ist-ein-schaden-ein-bagatellschaden': 'Wann ist ein Schaden ein Bagatellschaden?',
-  'steinschlag-reparieren-oder-scheibe-austauschen': 'Steinschlag – reparieren oder Scheibe austauschen?',
   'old-but-gold-ein-oldtimer-gutachten': 'Old but Gold – ein Oldtimer-Gutachten',
   'sturm-orkan-was-tun': 'Sturm/Orkan – was tun?',
   'winterreifen-richtig-lagern': 'Winterreifen richtig lagern',
