@@ -16,7 +16,7 @@ export default function IserlohnPage() {
         <div className="max-w-3xl mx-auto px-4 text-gray-700 space-y-4 leading-relaxed">
           <p>Auch in Iserlohn und Umgebung sind wir für Sie da. Als Kfz Sachverständigenbüro mit Sitz in Lüdenscheid bieten wir unsere Dienstleistungen im gesamten Märkischen Kreis an.</p>
           <p>Wir kommen zu Ihnen – ob zu Hause, auf der Arbeit oder in der Werkstatt Ihrer Wahl. Flexible Terminvereinbarung und schnelle Bearbeitung sind für uns selbstverständlich.</p>
-          <p>Unsere Leistungen in Iserlohn umfassen Unfallgutachten, Kostenvoranschläge, Wertgutachten, Fahrzeugbewertungen und die Vermittlung von Rechtsanwälten und Mietwagen.</p>
+          <p>Unsere Leistungen in Iserlohn umfassen Unfallgutachten mit technischer Schadenanalyse, Kostenvoranschläge, Wertgutachten und Fahrzeugbewertungen.</p>
         </div>
       </section>
       <section className="bg-accent py-16">

@@ -4,12 +4,11 @@ import Image from 'next/image'
 export const metadata: Metadata = { title: 'Team' }
 
 const team = [
-  { name: 'Andreas Koop', role: 'Geschäftsführer', image: '/images/andreas-koop-portrait.webp' },
+  { name: 'Andreas Koop', role: 'Inhaber · Kfz-Sachverständiger', image: '/images/andreas-koop-portrait.webp' },
   { name: 'Irina Hahn', role: 'Bürokauffrau und Assistentin', image: null },
   { name: 'Ivan Dalmann', role: 'Regionalleiter', image: null },
   { name: 'Linda Koop', role: 'Verwaltung', image: null },
   { name: 'Marcel Weber', role: 'Service', image: null },
-  { name: 'Viktor Malinin', role: 'Werkstattleiter', image: null },
 ]
 
 export default function TeamPage() {

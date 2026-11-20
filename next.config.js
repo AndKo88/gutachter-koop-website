@@ -10,4 +10,10 @@ const nextConfig = {
   },
 };
 
+nextConfig.redirects = async () => [
+  { source: '/post/anhanger-vermietung-ludenscheid-partnerschaft-zwischen-gutachter-koop-und-aral-brugge', destination: '/blog', permanent: true },
+  { source: '/post/ihr-unfallgegner-hat-eine-versicherung-sie-haben-jetzt-den-r5', destination: '/blog', permanent: true },
+  { source: '/post/steinschlag-reparieren-oder-scheibe-austauschen', destination: '/blog', permanent: true },
+];
+
 module.exports = nextConfig;

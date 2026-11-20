@@ -4,9 +4,8 @@ export const metadata: Metadata = { title: 'Vorteile' }
 
 const compareData = [
   { feature: 'Zerlegung von Bauteilen', koop: 'Standard bei uns', frei: 'Möglich', versicherung: 'Selten' },
-  { feature: 'Achsvermessung', koop: 'Vor Ort verfügbar', frei: 'Nicht immer vor Ort', versicherung: 'Nicht vor Ort' },
-  { feature: 'Karosserievermessung', koop: 'Vor Ort verfügbar', frei: 'Nicht immer vor Ort', versicherung: 'Nicht vor Ort' },
-  { feature: 'Mietwagenservice', koop: 'Immer verfügbar und kundenorientiert', frei: 'Nach Verfügbarkeit', versicherung: 'Nach Verfügbarkeit' },
+  { feature: 'Technische Schadenanalyse', koop: 'Kraftverlauf, Verformung und Materialbeanspruchung', frei: 'Variiert', versicherung: 'Selten' },
+  { feature: 'Auswertung von Achs- und Karosseriemessdaten', koop: 'Durch den Sachverständigen selbst', frei: 'Nicht immer', versicherung: 'Nein' },
   { feature: 'Anwaltservice', koop: 'Vollumfänglicher Service', frei: 'Selten', versicherung: 'Nein' },
   { feature: 'Prüfhalle mit guter Belichtung', koop: 'Spezialisierte Prüfhalle mit optimaler Beleuchtung', frei: 'Variiert', versicherung: 'Nein' },
   { feature: 'Kundenbetreuung', koop: 'Persönlich, individuell und engagiert', frei: 'Variiert', versicherung: 'Standardisiert' },
@@ -39,7 +38,7 @@ export default function VorteilePage() {
           <h2 className="text-3xl font-bold text-navy-900 mb-8 text-center">Warum ein Kostenvoranschlag nicht genügt</h2>
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>Viele Versicherungen fordern zunächst einen Kostenvoranschlag, jedoch erfordert eine genaue Bewertung des Schadens <strong>ein professionelles Kfz Gutachten</strong>, da es verborgene und spätere Schäden aufdecken kann, die in einem Kostenvoranschlag oft übersehen werden.</p>
-            <p>Viele Kostenvoranschläge mögen auf den ersten Blick detailliert erscheinen, sind jedoch oft standardisiert und lassen wichtige Fakten außen vor. Bei uns wird jedes Fahrzeug detailliert untersucht: Wir zerlegen Bauteile in unserer eigenen Prüfhalle, analysieren Schäden gründlich, führen Achs- und Karosserievermessungen durch und sorgen dank digitaler Prozesse für schnelle Ergebnisse.</p>
+            <p>Viele Kostenvoranschläge mögen auf den ersten Blick detailliert erscheinen, sind jedoch oft standardisiert und lassen wichtige Fakten außen vor. Bei uns wird jedes Fahrzeug detailliert untersucht: Wir zerlegen Bauteile in der Prüfhalle, werten Achs- und Karosseriemessdaten aus, prüfen den Kraftverlauf des Anstoßes und sorgen dank digitaler Prozesse für schnelle Ergebnisse.</p>
           </div>
         </div>
       </section>

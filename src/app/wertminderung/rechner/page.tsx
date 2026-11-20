@@ -155,7 +155,7 @@ export default function HtsRechnerPage() {
 </div>
 
 <div class="footer">
-  <p><strong>Kfz Sachverst&auml;ndigenb&uuml;ro Andreas Koop</strong> | Lennestraße 3, 58511 L&uuml;denscheid | Tel: 0170 / 500 40 22 | info@gutachter-koop.de</p>
+  <p><strong>Kfz Sachverst&auml;ndigenb&uuml;ro Andreas Koop</strong> | Rahmedestraße 65, 58507 L&uuml;denscheid | Tel: 0170 / 500 40 22 | info@gutachter-koop.de</p>
   <p style="margin-top:5px;">HTS-Methode basierend auf der Marktstudie von Fischer/Hiltscher (2015). Copyright F. Hiltscher. Alle Rechte vorbehalten.</p>
 </div>
 
