@@ -6,9 +6,8 @@ export const metadata: Metadata = { title: 'Team' }
 const team = [
   { name: 'Andreas Koop', role: 'Inhaber · Kfz-Sachverständiger', image: '/images/andreas-koop-portrait.webp' },
   { name: 'Irina Hahn', role: 'Bürokauffrau und Assistentin', image: null },
-  { name: 'Ivan Dalmann', role: 'Regionalleiter', image: null },
+  { name: 'Ivan Dalmann', role: 'Schadenaufnahme', image: null },
   { name: 'Linda Koop', role: 'Verwaltung', image: null },
-  { name: 'Marcel Weber', role: 'Service', image: null },
 ]
 
 export default function TeamPage() {
@@ -17,7 +16,7 @@ export default function TeamPage() {
       <section className="bg-navy-900 text-white py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Das Gutachter Koop Team</h1>
-          <p className="text-white/70 text-lg">Unser engagiertes Team steht Ihnen zur Seite.</p>
+          <p className="text-white/70 text-lg">Unser Team unterstützt bei Terminen, Schadenaufnahme und Verwaltung. Jedes Gutachten wird von Andreas Koop persönlich analysiert, ausgewertet und verantwortet.</p>
         </div>
       </section>
 

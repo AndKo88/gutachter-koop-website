@@ -14,16 +14,16 @@ const compareData = [
   { feature: 'Zerlegung von Bauteilen', koop: 'Standard bei uns', frei: 'Möglich', versicherung: 'Selten' },
   { feature: 'Technische Schadenanalyse', koop: 'Kraftverlauf, Verformung und Materialbeanspruchung', frei: 'Variiert', versicherung: 'Selten' },
   { feature: 'Auswertung von Achs- und Karosseriemessdaten', koop: 'Durch den Sachverständigen selbst', frei: 'Nicht immer', versicherung: 'Nein' },
-  { feature: 'Anwaltservice', koop: 'Vollumfänglicher Service', frei: 'Selten', versicherung: 'Nein' },
+  { feature: 'Gutachten an Ihre Fachanwaltskanzlei', koop: 'Auf Wunsch direkt, Sie wählen die Kanzlei', frei: 'Selten', versicherung: 'Nein' },
   { feature: 'Prüfhalle mit guter Belichtung', koop: 'Spezialisierte Prüfhalle mit optimaler Beleuchtung', frei: 'Variiert', versicherung: 'Nein' },
   { feature: 'Kundenbetreuung', koop: 'Persönlich, individuell und engagiert', frei: 'Variiert', versicherung: 'Standardisiert' },
 ]
 
 const steps = [
-  { nr: '01', title: 'Der Erstkontakt', time: 'ca. 30 Min', text: 'Beim gemeinsamen Erstgespräch klären wir alle wichtigen Details rund um den Schaden an Ihrem Fahrzeug. Erzählen Sie unserem Expertenteam von den Umständen, zeigen Sie uns die betroffenen Bereiche und informieren Sie uns über Ihre Erwartungen und Wünsche.' },
+  { nr: '01', title: 'Der Erstkontakt', time: 'ca. 30 Min', text: 'Beim gemeinsamen Erstgespräch klären wir alle wichtigen Details rund um den Schaden an Ihrem Fahrzeug. Erzählen Sie uns von den Umständen, zeigen Sie uns die betroffenen Bereiche und informieren Sie uns über Ihre Erwartungen und Wünsche.' },
   { nr: '02', title: 'Die Schadenaufnahme', time: 'ca. 20 Min', text: 'Ob bei Ihnen Zuhause, auf der Arbeit oder in Ihrer ausgesuchten Werkstatt. Sobald alle Details besprochen sind, nimmt unser Team den Schaden präzise auf. Dabei nutzen wir modernste Technologie und bewährte Methoden, um sicherzustellen, dass nichts übersehen wird.' },
   { nr: '03', title: 'Die Auswertung', time: '', text: 'Ihr Sachverständiger wertet Messwerte und Fotos aus, prüft, wie der Anstoß auf das Fahrzeug gewirkt hat, und berechnet Reparaturweg und Kosten. Für Sie läuft das im Hintergrund, Sie müssen nichts tun.' },
-  { nr: '04', title: 'Das fertige Gutachten', time: '', text: 'Wir erstellen nicht nur Ihr detailliertes Gutachten, sondern versenden es auch direkt an einen Rechtsanwalt oder die Versicherung. Unser Ziel ist es, den Prozess für Sie so einfach wie möglich zu gestalten und sicherzustellen, dass Sie schnell Ihr Geld erhalten.' },
+  { nr: '04', title: 'Das fertige Gutachten', time: '', text: 'Wir erstellen Ihr detailliertes Gutachten und senden es auf Wunsch direkt an Ihre Fachanwaltskanzlei für Verkehrsrecht oder an die Versicherung. Unser Ziel ist es, den Prozess für Sie so einfach wie möglich zu gestalten und sicherzustellen, dass Sie schnell Ihr Geld erhalten.' },
 ]
 
 const methode = [
@@ -40,10 +40,10 @@ const qualifikation = [
 ]
 
 const stats = [
-  { value: '8', label: 'Mitarbeiter' },
+  { value: '100 %', label: 'persönlich geprüft' },
   { value: '12+', label: 'Jahre Erfahrung' },
   { value: '20.000+', label: 'Gutachten erstellt' },
-  { value: '100%', label: 'An Ihrer Seite' },
+  { value: '5,0', label: 'Sterne bei Google' },
 ]
 
 export default function Home() {
@@ -57,7 +57,7 @@ export default function Home() {
             <div>
               <span className="inline-block text-accent font-semibold text-sm tracking-widest uppercase mb-4">KFZ GUTACHTER LÜDENSCHEID</span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">Nicht nur ein Kfz Gutachter, <span className="text-accent">sondern Ihr vertrauenswürdiger Partner.</span></h1>
-              <p className="text-white/70 text-lg mb-8 leading-relaxed">Unsere Kfz Experten erstellen detaillierte Kfz Gutachten, die bei der Schadenregulierung für eine schnelle Abwicklung sorgen.</p>
+              <p className="text-white/70 text-lg mb-8 leading-relaxed">Detaillierte Kfz Gutachten für eine schnelle Schadenregulierung. Jedes Gutachten wird von mir persönlich geprüft und verantwortet.</p>
               <div className="flex flex-wrap gap-4 mb-10">
                 <a href="tel:01705004022" className="btn-primary">0170 - 500 40 22</a>
                 <a href="https://wa.me/491705004022" target="_blank" rel="noopener noreferrer" className="btn-secondary">WhatsApp</a>
@@ -172,7 +172,7 @@ export default function Home() {
             {[
               { title: 'Schnellere Abwicklung', text: 'Sie möchten keine Ewigkeit auf die Klärung Ihres Falls warten. Unsere effizienten und digitalen Prozesse beschleunigen den Weg zur Schadensregulierung.' },
               { title: 'Präzise Begutachtung', text: 'Ein Autounfall kann kompliziert sein. Unsere gründlichen Schadenaufnahmen und Gutachten sorgen für Klarheit und Fairness.' },
-              { title: 'Mehr als nur Zahlen', text: 'Es geht nicht nur darum, den Schaden zu beziffern. Es geht um Ihr Fahrzeug, Ihre Mobilität und Ihren Frieden. Wir bieten umfassenden Service.' },
+              { title: 'Mehr als nur Zahlen', text: 'Es geht nicht nur darum, den Schaden zu beziffern. Es geht um Ihr Fahrzeug und Ihr Recht.' },
             ].map((item, i) => (
               <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <h3 className="font-bold text-navy-900 mb-3">{item.title}</h3>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'Kfz Gutachter Andreas Koop | Größtes Kfz Sachverständigenbüro im Märkischen Kreis',
     template: '%s | Kfz Gutachter Koop',
   },
-  description: 'Unsere Kfz Experten erstellen detaillierte Kfz Gutachten, die bei der Schadenregulierung für eine schnelle Abwicklung sorgen. 20.000+ Gutachten erstellt.',
+  description: 'Kfz-Sachverständiger Andreas Koop in Lüdenscheid: technische Schadenanalyse und detaillierte Kfz Gutachten, jedes persönlich geprüft. 20.000+ Gutachten erstellt.',
   keywords: ['Kfz Gutachter', 'Lüdenscheid', 'Sachverständiger', 'Kfz Gutachten', 'Andreas Koop', 'Märkischer Kreis', 'Unfallgutachten'],
   authors: [{ name: 'Andreas Koop' }],
   openGraph: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: 'https://gutachter-koop.de',
     siteName: 'Kfz Gutachter Koop',
     title: 'Kfz Gutachter Andreas Koop | Größtes Kfz Sachverständigenbüro im Märkischen Kreis',
-    description: 'Unsere Kfz Experten erstellen detaillierte Kfz Gutachten, die bei der Schadenregulierung für eine schnelle Abwicklung sorgen.',
+    description: 'Kfz-Sachverständiger Andreas Koop in Lüdenscheid: technische Schadenanalyse und detaillierte Kfz Gutachten, jedes persönlich geprüft.',
   },
 }
 

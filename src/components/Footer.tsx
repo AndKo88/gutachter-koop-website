@@ -47,7 +47,6 @@ export default function Footer() {
         </div>
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-white/40">
           <p>&copy; {new Date().getFullYear()} Unfallgutachter Koop. Alle Rechte vorbehalten.</p>
-          <p>Designed by UnfallGiganten</p>
         </div>
       </div>
     </footer>
